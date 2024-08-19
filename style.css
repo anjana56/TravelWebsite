@@ -1,0 +1,191 @@
+.section1 {
+  background-image: url('./images/bg.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  height: 500px; 
+  margin: 0; 
+  padding: 0; 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stacks items vertically */
+}
+
+.text-overlay {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  margin-bottom: 20px; /* Adds space between text and image */
+}
+
+.image-overlay {
+  width: 200px; /* Set the width of the image */
+  height: auto;
+  border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+.navbar {
+  background-color: transparent !important;
+  border: none;
+}
+
+.btn-custom {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #007bff; /* Bootstrap primary blue color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none; /* Remove underline from link */
+  margin-top: 20px;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.form-container {
+  display: none; /* Hide the form container by default */
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-container .btn-primary {
+  margin-top: 20px;
+}
+.red{
+  color: red;
+}
+.head1{
+  height: 50px;
+  width: 100%;
+  margin-left: 520px;
+  margin-top: 30px;
+}
+.head2{
+  height: 50px;
+  width: 100%;
+  margin-left: 250px;
+}
+.row2{
+  height: 400px;
+}
+.col2{
+  height: 100px;
+  width: 160px;
+  border: solid;
+
+}
+.col1{
+  display: flex;
+  flex-direction: row;
+}
+.col3{
+  display: flex;
+}
+.col4{
+  display: flex;
+}
+.col5{
+  margin-left: 160px;
+}
+.row1{
+  margin-top: 10px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.north{
+  height: 70px;
+  width: 100%;
+  text-align: center;
+}
+.nt{
+  height: 200px;
+  width: 150px;
+}
+.NORTHTOURS{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nt:hover {
+  color: rgb(5, 38, 71) ; 
+}
+.div6{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+span{
+  color: red;
+  font-size: small;
+}
+.div7{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.pf{
+  height: 280px;
+  width: 180px;
+  border: solid;
+}
+.btn5{
+  margin-left: 30px;
+}
+.fin{
+  height: 500px;
+  width: 180px;
+}
+.final2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.fhesd{
+  text-align: center;
+}
+.finl{
+  height: 300px;
+  width: 100%;
+  background-color: rgb(13, 13, 54);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.fh{
+  color: orange;
+}
+.fin3{
+  display: flex;
+  flex-direction: column;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-around;
+}
+.p2{
+  color: white;
+}
+.red{
+  color: red;
+}
